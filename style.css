@@ -5,6 +5,8 @@
 *{
     margin: 0;
     padding: 0;
+border: 1px solid red;
+    
 }
 .navbar{
     display: flex;
@@ -60,6 +62,7 @@ li>a{
         justify-content: space-between;
         margin: 20px;
         margin-top: 40px;
+        padding-left: 10px;
     }
 
 }
@@ -124,7 +127,7 @@ li>a{
     flex-direction: row-reverse;
     margin-left: 100px;
     margin-right: 200px;
-    gap: ;
+    gap: 30px;
     margin-bottom: 150px;
     
 }
@@ -142,7 +145,7 @@ li>a{
 
     }
     .image1{
-        width: 350px;
+        width: 320px;
         
     }
     .heading{
@@ -156,11 +159,13 @@ li>a{
     }
     .btn1{
         height: 50px;
-        font-size: 13px;
+        font-size: 11px;
+        padding: 3px;
     }
     .btn2{
         height: 50px;
-        font-size: 13px;
+        font-size: 11px;
+        padding: 3px;
     }
     .btnr{
         justify-content: center;
@@ -216,64 +221,30 @@ li>a{
         font-size: 24px;
         color: #242A45;
         text-align: center;
-        margin-top: 150px;
-        padding-top: 100px;
+        margin-top: 50px;
+        padding-top: 0px;
         font-weight: 400;
         
     }
-.para1{
-    text-align: center;
-    font-weight: 400;
-    color: #9194a2;
-    font-family: poppin;
-    font-size: 15px;
+    .para1{
+        text-align: center;
+        font-family: poppin;
+        color: #9194a2;
+        margin-bottom: 100px;
+    }
+@media only screen and (max-width:480px){
+    .para1{
+        font-size: 13px;
+        text-align: center;
+       
+    }
+    .section2{
+        width: 80%;
+        justify-content: center;
+        margin-left: 47px;
+    }
 }
+.col{
+    background-color: #f7f7f7;
 
-.image2{
-    width: 500px;
-}
-.rowreverse{
-    display: flex;
-    flex-direction: row;
-   gap: 30px; 
-   background-color: #f7f7f7;
-}
-.colr{
-    display: flex;
-    flex-direction: column;
-   margin-right: 100px; 
-   margin-left: 100px;
-
-    
-}
-.heading5{
-    font-family: poppin;
-    font-size: 24px;
-    color: #242A45;
-    text-align: left;
-    margin-top: 150px;
-    padding-top: 100px;
-    font-weight: 400;
-}
-
-.coli{
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-    margin-top: 200px;
-
-}
-.btn3{
-    width:150px;
-    font-family: poppin;
-    background-color: #5267Df;
-    color: #ffffff;
-    box-sizing: border-box;
-    border-radius: 10px;
-    border-color: #ffffff;
-    border-style: solid;
-    font-size: 16px;
-    padding: 10px;
-    padding-left: 20px;
-    text-align: center;
 }
